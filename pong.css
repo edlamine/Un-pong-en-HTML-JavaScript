@@ -1,0 +1,30 @@
+body {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+}
+
+.ball{
+    position: fixed;
+    left: 640px; 
+    top: 280px;
+    width: 64px;
+    height: 64px;
+}
+.paddle1{
+    position: fixed;
+    width: 24px;
+    height: 192px;
+    left: 0px; 
+    top: 128.5px;
+}
+.paddle2{
+    position: fixed;
+    width: 24px;
+    height: 192px;
+    right: 0px; 
+    top: 128.5px;
+}
