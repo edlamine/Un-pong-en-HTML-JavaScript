@@ -1,19 +1,22 @@
-<!DOCTYPE html5>
-<html lang="fr">
+<!DOCTYPE html>
+<html>
     <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pong</title>
-    <link rel="stylesheet" href="pong.css">
-    <script src="pong.js"></script>
+        <meta charset="utf-8>" />
+        <title>Pong</title>
+        <link href="pong.css" rel="stylesheet" />
+        <script src="pong.js"></script>
     </head>
-    <body onload="startGame()">
+
+    <body>
+        <img src="images/balle.png" alt="balle du jeu" id="ball">
+        <img src="images/paddle.jpg" alt="paddle1" id="paddle1">
+        <img src="images/paddle.jpg" alt="paddle2" id="paddle2">
+        
         <div style="display: flex; justify-content: space-around; font-size: 100px;">
             <span id="score1"></span> <span id="score2"></span>
         </div>
-        <div><img src="images/balle.webp" alt="ball" class="ball"></div>
-        <div><img src="images/raquette.avif" alt="paddle1" class="paddle1"></div>
-        <div><img src="images/raquette.avif" alt="paddle2" class="paddle2"></div>
     </body>
 </html>
+
+
+
